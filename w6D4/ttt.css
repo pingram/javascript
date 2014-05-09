@@ -1,0 +1,37 @@
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body > * {
+}
+
+#gameSpace {
+  width: 75px;
+  margin: 0px auto;
+  outline: burlywood solid 10px;
+}
+
+#gameSpace:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.square {
+  outline: grey solid 1px;
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+
+.o {
+  background-color: blue;
+  text-align: center;
+}
+.x {
+  background-color: red;
+  text-align: center;
+}
+
+

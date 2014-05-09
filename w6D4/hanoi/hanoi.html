@@ -1,0 +1,23 @@
+<html>
+<head>
+  <link rel="stylesheet" href="hanoi.css" type="text/css">
+  <script src="./jquery.js"></script>
+  <script src="./hanoiOrig.js"></script>
+  <script src="./hanoiui.js"></script>
+  <script src="./underscore.js"></script>
+  <title>Hanoi</title>
+</head>
+
+<body>
+
+  <h1>Hanoi</h1>
+  <div id="towers">
+  </div>
+
+  <script>
+    var ui = new Hanoi.UI($('#towers'));
+    ui.setUpEvents();
+  </script>
+
+</body>
+</html>

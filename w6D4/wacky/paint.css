@@ -1,0 +1,37 @@
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body > * {
+}
+
+#easel {
+  width: 500px;
+  margin: 0px auto;
+  outline: burlywood solid 10px;
+}
+
+#easel:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+form {
+  margin-top: 40px;
+}
+input {
+  margin: 0px auto;
+  display: block;
+  
+}
+
+.square {
+  outline: grey solid 1px;
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+
+
+

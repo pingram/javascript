@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Wacky Painter!</title>
+    <script src="jquery.js"></script>
+    <script src="underscore.js"></script>
+    <script src="paint.js"></script>
+    <link rel="stylesheet" href="paint.css" type="text/css">
+  </head>
+  <body>
+    <h1>Welcome to Wacky Painter!</h1>
+    <div id="easel">
+    </div>
+    <form>
+      <input type="text" name="color" id="color_choice" value="" />
+      <input type="submit" name="" id="color_button" value="Choose Color" >
+    </form>
+    <script>
+      var painter = new P.Painter($('#easel'));  
+      painter.setUpCanvas();
+      painter.setUpEvents();
+    </script>
+
+  </body>
+</html>
